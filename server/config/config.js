@@ -20,7 +20,7 @@ let urlDB
 if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb://localhost:27017/cafe'
 } else {
-    urlDB = 'mongodb+srv://aorozcoz79:9Mu3i2h4sUve5Fee@cluster0-rrjtr.mongodb.net/cafe?retryWrites=true'
+    urlDB = process.env.MONGO_URI
 }
 
 process.env.URLDB = urlDB
