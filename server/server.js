@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-// RUTAS
+// CONFIGURACION GLOBAL DE RUTAS
 
-app.use(require('./routes/usuario'))
+app.use(require('./routes/index'))
 
 //CONEXION BD
 
