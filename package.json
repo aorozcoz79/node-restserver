@@ -1,6 +1,10 @@
 {
     "name": "07-restserver",
     "version": "1.0.0",
+    "engines": {
+        "node": "10.15.3",
+        "npm": "6.x"
+    },
     "description": "",
     "main": "index.js",
     "scripts": {
